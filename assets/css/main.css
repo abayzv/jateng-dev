@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-color {
+   @apply border-gray-200 dark:border-gray-800;
+  }
+
+body{
+   @apply bg-white dark:bg-slate-900;
+}
