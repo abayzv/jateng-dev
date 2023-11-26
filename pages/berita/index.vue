@@ -11,7 +11,7 @@
 
   <!-- News Category List -->
   <div class="border-y border-color mb-10 py-3">
-    <ul class="flex w-1/2 justify-between mx-auto">
+    <ul class="flex lg:w-1/2 lg:justify-between mx-auto gap-10 overflow-x-auto">
       <template v-for="(category, index) in categories">
         <li v-if="index === 0">
           <nuxt-link
@@ -46,3 +46,10 @@
 <script setup lang="ts">
 const categories = ["Semua", "Populer", "Teknologi", "Startup", "Developer"];
 </script>
+
+<style scoped>
+/* hide scroll bar */
+::-webkit-scrollbar {
+  display: none;
+}
+</style>

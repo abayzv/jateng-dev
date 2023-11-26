@@ -2,31 +2,19 @@
   <Breadcumb :routes="$route.path.split('/').filter((route) => route !== '')" />
   <div class="flex gap-10 lg:flex-row flex-col">
     <!-- Content -->
-    <div class="border border-color p-5 rounded lg:w-3/4 w-full">
+    <div class="lg:border lg:border-color lg:p-5 rounded lg:w-3/4 w-full">
       <h1 class="text-2xl font-bold mb-3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quidem atque
         dignissimos ad explicabo officiis perspiciatis!
       </h1>
       <div class="mb-5 opacity-50">Last Update: 21 Nov 2022 15:43</div>
       <img src="https://picsum.photos/seed/1/1000/480" alt="" />
-      <article
-        class="flex flex-col lg:gap-3 gap-1 lg:leading-9 lg:text-xl mt-5"
-      >
+      <article class="flex flex-col gap-3 lg:leading-9 lg:text-xl mt-5">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint commodi
           laborum doloremque rem minus animi, eum alias quas necessitatibus!
           Quae repellat adipisci cupiditate veritatis, nisi natus. Tempore
           veritatis autem accusantium.
-        </p>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          unde molestiae nihil deleniti ratione :
-        </div>
-        <p>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -88,7 +76,6 @@ onMounted(() => {
 
 <style scoped>
 article :not(img) {
-  text-indent: 2em;
   @apply opacity-70;
 }
 

@@ -1,11 +1,13 @@
 <template>
-  <div class="flex flex-col items-center w-full py-10">
-    <img
-      src="https://i.pinimg.com/1200x/e7/58/4c/e7584c1c35f7f9da7ff0880c9d640745.jpg"
-      alt=""
-    />
-    <h2 class="text-4xl font-bold text-primary-500">
+  <div class="flex flex-col gap-5 items-center w-full py-10">
+    <h1 class="text-7xl text-primary-500 font-bold">404</h1>
+    <h2 class="lg:text-4xl text-2xl font-bold text-center">
       Situs sedang dalam tahap pengembangan
     </h2>
+    <div>
+      <nuxt-link to="/" class="text-primary-500">
+        Kembali ke Beranda
+      </nuxt-link>
+    </div>
   </div>
 </template>
