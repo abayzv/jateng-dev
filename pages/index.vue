@@ -4,13 +4,13 @@
 
     <ContainerProductCategory />
 
-    <div class="mt-10 rounded-xl overflow-clip">
+    <!-- <div class="mt-10 rounded-xl overflow-clip">
       <img
         src="https://blog.alakmalak.com/wp-content/uploads/2016/09/laravel-banner.jpg"
         alt="Banner"
         class="w-full object-cover"
       />
-    </div>
+    </div> -->
 
     <div class="flex mt-10 gap-10 lg:flex-row flex-col">
       <div class="lg:w-2/3 w-full flex flex-col gap-5">

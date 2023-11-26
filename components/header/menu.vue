@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <div v-if="props.type === 'desktop'" class="border-b border-color">
+    <div
+      v-if="props.type === 'desktop'"
+      class="border-b border-color sticky top-0"
+    >
       <Container>
         <div class="flex items-center">
           <ul class="flex gap-10" ref="ul">
