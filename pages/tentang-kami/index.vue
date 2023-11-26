@@ -51,7 +51,7 @@
               <Icon :name="service.icon" class="text-primary-500" />
             </div>
             <h4 class="font-bold text-xl mb-2">{{ service.title }}</h4>
-            <p class="opacity-70 text-sm">
+            <p class="opacity-70">
               {{ service.description }}
             </p>
           </li>
@@ -108,25 +108,25 @@ const services = [
     icon: "ant-design:message-filled",
     title: "Forum",
     description:
-      "Forum diskusi online, di mana Anda dapat bertanya, menjawab, atau berdiskusi tentang topik-topik seputar pengembangan software.",
+      "Anda dapat bertanya, menjawab, atau berdiskusi tentang topik-topik seputar pengembangan software.",
   },
   {
     icon: "ant-design:wechat-filled",
     title: "Grup Chat",
     description:
-      "Grup chat online, di mana Anda dapat berinteraksi dengan developer lain secara real-time, baik untuk sekedar ngobrol, berbagi informasi, atau membantu masalah.",
+      "Berinteraksi dengan developer lain secara real-time, baik untuk sekedar ngobrol, berbagi informasi, atau membantu masalah.",
   },
   {
     icon: "ant-design:read-filled",
     title: "Blog",
     description:
-      "Blog online, di mana Anda dapat menulis atau membaca artikel-artikel menarik tentang pengembangan software, baik yang bersifat teknis, inspiratif, maupun edukatif.",
+      "Anda dapat menulis atau membaca artikel-artikel menarik tentang pengembangan software, baik yang bersifat teknis, inspiratif, maupun edukatif.",
   },
   {
     icon: "ant-design:calendar-filled",
     title: "Event",
     description:
-      "Event offline, di mana Anda dapat bertemu dan berjejaring dengan developer lain secara langsung, baik melalui workshop, seminar, meetup, hackathon, atau acara lainnya.",
+      "Bertemu dan berjejaring dengan developer lain secara langsung, baik melalui workshop, seminar, meetup, hackathon, atau acara lainnya.",
   },
 ];
 </script>
