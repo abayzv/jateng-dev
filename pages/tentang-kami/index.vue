@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-slate-50">
-    <Container class="py-16">
-      <div class="px-16">
+  <div class="bg-slate-50 dark:bg-slate-950">
+    <Container class="lg:py-16 py-10">
+      <div class="lg:px-16 px-4">
         <h3 class="mb-5">
           <span class="border-b border-primary-500">ABOUT US</span>
         </h3>
-        <h1 class="text-5xl font-black mb-5">
+        <h1 class="lg:text-5xl text-2xl font-black mb-5">
           Apa itu Jateng<span class="text-primary-500">Dev</span>?
         </h1>
         <p class="text-lg opacity-70">
@@ -28,12 +28,12 @@
   </div>
 
   <div>
-    <Container class="py-16">
-      <div class="px-16">
+    <Container class="lg:py-16 py-10">
+      <div class="lg:px-16 px-4">
         <h3 class="mb-5">
           <span class="border-b border-primary-500">SERVICE</span>
         </h3>
-        <h2 class="text-3xl font-black mb-5">
+        <h2 class="lg:text-3xl text-2xl font-black mb-5">
           Apa saja yang bisa di lakukan di Jateng<span class="text-primary-500"
             >Dev</span
           >?
@@ -42,7 +42,7 @@
           JatengDev menyediakan berbagai fasilitas dan kegiatan yang dapat
           membantu Anda dalam belajar dan berkarir sebagai developer, seperti:
         </p>
-        <ul class="grid grid-cols-4 gap-5 mt-5">
+        <ul class="grid lg:grid-cols-4 gap-5 mt-5">
           <li
             v-for="service in services"
             class="border border-color p-5 rounded"
@@ -60,9 +60,9 @@
     </Container>
   </div>
 
-  <div class="bg-slate-50">
-    <Container class="py-16">
-      <div class="px-16">
+  <div class="bg-slate-50 dark:bg-slate-950">
+    <Container class="lg:py-16 py-10">
+      <div class="lg:px-16 px-4">
         <h3 class="mb-5">
           <span class="border-b border-primary-500">JOIN US</span>
         </h3>
