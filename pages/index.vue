@@ -32,6 +32,13 @@
 
 <script setup lang="ts">
 useHead({
-  title: "JATENGDEV - Beranda",
+  title: "Beranda - Jateng Dev",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Jateng Dev adalah komunitas developer di Jawa Tengah yang berfokus pada pengembangan aplikasi berbasis teknologi web.",
+    },
+  ],
 });
 </script>

@@ -44,6 +44,16 @@
   </div>
 </template>
 <script setup lang="ts">
+useHead({
+  title: "Berita - Jateng Dev",
+  meta: [
+    {
+      name: "description",
+      content: "Temukan berita terbaru seputar teknologi di Jawa Tengah",
+    },
+  ],
+});
+
 const categories = ["Semua", "Populer", "Teknologi", "Startup", "Developer"];
 </script>
 

@@ -103,6 +103,17 @@ definePageMeta({
   layout: "full",
 });
 
+useHead({
+  title: "Tentang Kami - Jateng Dev",
+  meta: [
+    {
+      name: "description",
+      content:
+        "JatengDev adalah platform yang berisi komunitas developer di wilayah Jawa Tengah. Kami adalah tempat bagi para developer yang ingin belajar, berbagi, dan berkembang bersama.",
+    },
+  ],
+});
+
 const services = [
   {
     icon: "ant-design:message-filled",
